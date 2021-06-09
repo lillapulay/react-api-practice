@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('https://wallpapercave.com/wp/wMY4mQ5.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 90vw;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 30vw;
+    opacity: 0.9;
+}
+
+.pokeCard {
+    border-radius: 15px;
+    text-transform: capitalize;
+    width: 40rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    list-style: none;   
+    background-image: linear-gradient(to left, rgb(60, 90, 166), rgb(42, 117, 187), rgb(255, 203, 5), rgb(199, 160, 8)); 
+    opacity: 0.9;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(204, 0, 0);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+}
